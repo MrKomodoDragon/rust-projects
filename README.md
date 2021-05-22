@@ -1,2 +1,2 @@
-# rust-projects
-Where I host my projects i make in rust
+# rust-snippets
+Random snippets of code I've made while learning rust
