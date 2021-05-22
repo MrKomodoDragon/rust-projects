@@ -25,7 +25,7 @@ fn match_animal(animal: AnimalType) -> String {
 //main function
 
 fn main() {
-    let _sheep = Animal {
+    let _sheep: Animal = Animal {
         type_of_animal: AnimalType::Mammal,
         name: String::from("sheep"),
     };
