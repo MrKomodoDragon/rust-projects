@@ -28,11 +28,13 @@ impl Area for Circle {
 }
 //Main Function
 fn main() {
+    //Make an instance of the rectangle struct
     let rect = Rectangle {
         width: 9.0,
         length: 10.0,
     };
     println!("The area of the rectangle is: {}", rect.area());
+    //Make an instance of the circle struct
     let circle = Circle { radius: 2.0 };
     println!("The area of the circle is: {}", circle.area());
 }
